@@ -25,6 +25,8 @@ $ dig search.marathon.mesos
 ;; ANSWER SECTION:
 search.marathon.mesos.		60	IN	A	10.9.87.94
 ```
+
+*note*: many frameworks actually have longer, less friendly names (example, marathon is actually marathon-<version>, such as marathon-0.7.6). An [https://github.com/mesosphere/mesos-dns/issues/38] is open to improve this situation.
  
 ## SRV Records
 
